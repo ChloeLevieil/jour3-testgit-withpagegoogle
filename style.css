@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: roboto, sans-serif;
+    margin:0;
+    padding: 0;
+    height: 100% ;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link-nav{
+    color: rgba(0,0,0,.87) ;
+}
+
+.link-connexion{
+    color:white ;
+}
+
+a{
+    margin: 8px ;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.button-nav{
+    background-color: #1a73e8 ;
+    border-radius: 5px;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    line-height: 16px ;
+    text-align: center;
+}
+
+div {
+    margin: 8px;
+}
+
+main{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    margin: 10% 0;
+}
+
+input{
+    display: flex;
+    border-radius: 30px;
+    padding: 5px 8px 0 14px;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 600px;
+    font-size: 18px;
+}
+
+.button-main{
+    background-color: #f8f9FA;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-main:hover{
+    -webkit-box-shadow: 1px 3px 8px 0px rgba(0,0,0,0.05); 
+    box-shadow: 1px 3px 8px 0px rgba(0,0,0,0.05);
+    border: #70757a ;
+}
+
+footer{
+    background-color: #dadce0 ;
+    color : #70757a ;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+}
+
+.position-link-footer {
+    display: flex;
+}
+
+.link-footer{
+    color : #70757a ;
+}
+
+.marge-comment-fonctionne {
+    margin: 2px;
+}
+
+.position-france{
+padding: 5px;  
+margin: 0;
+}
+
+.position-feuille{
+    height: 14px;
+    margin-right: 6px;
+}
+
+.position-footer {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
